@@ -1,0 +1,6 @@
+.schedule-container { max-width: 1000px; margin: 24px auto; padding: 0 16px; }
+.schedule-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+.schedule-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.schedule-card { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px; }
+.schedule-actions { display: flex; gap: 8px; }
+

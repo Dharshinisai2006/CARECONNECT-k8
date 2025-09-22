@@ -1,0 +1,40 @@
+.doctor-dashboard {
+	max-width: 1200px;
+	margin: 40px auto;
+	padding: 20px;
+}
+
+.doctor-panels {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	gap: 16px;
+}
+
+@media (max-width: 640px) {
+	.doctor-dashboard { padding: 12px; }
+}
+
+.doctor-card {
+	background: #ffffff;
+	border: 1px solid #e5e7eb;
+	border-radius: 12px;
+	padding: 18px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.doctor-card h3 {
+	margin-bottom: 8px;
+	color: #111827;
+}
+
+.appointment-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.appointment-item {
+	border-bottom: 1px solid #e5e7eb;
+	padding: 8px 0;
+}
+
