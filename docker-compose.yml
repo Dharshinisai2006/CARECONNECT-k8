@@ -13,7 +13,7 @@ services:
       - springboot-mysql-net
 
   backend:
-    image: dharshinisai2006/docker-backend:latest
+    image: dharshinisai2006/careconnect-backend:latest
     container_name: springboot
     ports:
       - "2025:1705"
@@ -24,7 +24,7 @@ services:
       - springboot-mysql-net
 
   frontend:
-    image: dharshinisai2006/docker-frontend:latest
+    image: dharshinisai2006/careconnect-frontend:latest
     container_name: react
     ports:
       - "3000:80"
