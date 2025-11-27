@@ -29,8 +29,8 @@ jobs:
       - name: Build and Push Backend Image
         uses: docker/build-push-action@v6
         with:
-          context: ./HospitalManagementSpringBoot
-          file: ./HospitalManagementSpringBoot/backend.Dockerfile
+          context: ./SDP-BACKEND/HospitalManagementSpringBoot
+          file: ./SDP-BACKEND/HospitalManagementSpringBoot/backend.Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_USER }}/k8-careconnect-backend:latest
 
