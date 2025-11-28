@@ -32,7 +32,7 @@ jobs:
           context: ./SDP-BACKEND/HospitalManagementSpringBoot
           file: ./SDP-BACKEND/HospitalManagementSpringBoot/backend.Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USER }}/k8-careconnect-backend:latest
+          tags: ${{ secrets.DOCKER_USER }}/k8-careconnect-back:latest
 
       # Step 5 — Build & Push Frontend Image
       - name: Build and Push Frontend Image
@@ -41,4 +41,4 @@ jobs:
           context: ./hospitalmanagement
           file: ./hospitalmanagement/frontend.Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USER }}/k8-careconnect-frontend:latest
+          tags: ${{ secrets.DOCKER_USER }}/k8-careconnect-front:latest
