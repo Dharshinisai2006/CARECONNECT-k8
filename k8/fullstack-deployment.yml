@@ -87,7 +87,7 @@ spec:
     - protocol: TCP
       port: 1705
       targetPort: 1705
-      nodePort: 30091        # Optional fixed NodePort (range 30000–32767)
+      nodePort: 30025        # Optional fixed NodePort (range 30000–32767)
   type: NodePort
 ---
 # ===========================
