@@ -71,7 +71,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: dharshinisai2006/k8-careconnect-backend:latest  # <-- change this
+          image: dharshinisai2006/k8-careconnect-back:latest  # <-- change this
           ports:
             - containerPort: 1705
 ---
@@ -110,7 +110,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: dharshinisai2006/k8-careconnect-frontend:latest  # <-- change this
+          image: dharshinisai2006/k8-careconnect-front:latest  # <-- change this
           ports:
             - containerPort: 80
           
